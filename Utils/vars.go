@@ -18,8 +18,8 @@ var TFN []string
 var CurrentDir string
 
 func InitEnv()  {
-	file, err := os.Open("/var/www/html/calleridrep.com/.env")
-	//file, err := os.Open("/var/www/caller/calleridrep/src/.env")
+	//file, err := os.Open("/var/www/html/calleridrep.com/.env")
+	file, err := os.Open("/var/www/caller/calleridrep/src/.env")
 
 	if err!=nil{
 		panic(err)
